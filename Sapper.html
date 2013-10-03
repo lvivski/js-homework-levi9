@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="Sapper.css">
+	<script type="text/javascript" src="Sapper.js"></script>
+	<title>Sapper training</title>
+</head>
+<body>
+	<div id="GameField"></div>
+	<button type="button"  onclick="StartGame();">Restart game</button>
+	<h1 id="result" ></h1>
+	
+	<script type="text/javascript">
+	StartGame();
+	function StartGame()
+	{
+		var game = new Game('GameField', 'result');
+		game.CreateGame();
+	}
+	</script>
+</body>
+</html>
