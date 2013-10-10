@@ -1,0 +1,37 @@
+.cell {
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+	float: left;
+	color: #000;
+	background-color: #bbb;
+}
+
+.cell-open {
+	background-color: #eee;
+}
+
+.cell-bang {
+	background-color: #f77;
+}
+
+.field {
+	clear: both;
+	float: left;
+}
+
+.notify {
+	height: 30px;
+}
+
+.control-panel {
+	margin: 4px 0;
+}
+
+.control-panel  div{
+	color: #000;
+	background-color: #bbb;
+	cursor: pointer;
+	width: 50px;
+	padding: 3px 5px;
+}
